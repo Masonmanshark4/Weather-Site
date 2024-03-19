@@ -11,7 +11,7 @@
 ## Description
 This is meant to be a site to allow users to check the weather of any American based city in the current time and a 5 day forecast using the openWeather API with the added benifit of holding any of the pervious cities searched and pull them back up with ease.
  Here is a Preview before launch version 0.0.1: 
-![Pre-Launch](Screenshot 2024-03-18 234159.png)
+![Pre-Launch]([Screenshot 2024-03-18 234159.png](https://github.com/Masonmanshark4/Weather-Site/blob/46b2eb760189f873021c95da3c96d45b438b4d6a/assets/images/Screenshot%202024-03-18%20234159.png))
 
 Live site: https://masonmanshark4.github.io/Weather-Site/?
 
