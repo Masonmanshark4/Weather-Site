@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/Style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        
+        <form id="searchForm">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="currentWeather" class="weather-now">
+            <h2>Current Weather</h2>
+            <ul class="weather-section">
+                <li class="currentTitle"><span id="currentCity">City </span>  <span id="currentDate"> --/--/-- </span>  <img class="icon" id="currentIcon"></img></li>
+                <li>Temperature: <span id="currentTemp">--</span>°F</li>
+                <li>Humidity: <span id="currentHumidity">--</span>%</li>
+                <li>Wind Speed: <span id="currentWind">--</span>mph</li>
+            </ul>
+        </div>
+
+        <div id="forecast" class="weather-section">
+            <h2>5-Day Forecast</h2>
+            <div id="forecastDetails">
+                <ul class='car' id='day1'>
+                    
+                    <img class = 'icon' id='icon1'></img>
+                    <li id='Day-1'>--/--/--</li>
+                    <li id='Temp-1'>Temp: </li>
+                    <li id='Humidity-1'>Humidity: </li>
+                    <li id='Wind-1'>Wind Speed:</li>
+                </ul>
+                <ul class='car' id='day2'>
+                    
+                    <img class = 'icon' id='icon1'></img>
+                    <li id='Day-2'>--/--/--</li>
+                    <li id='Temp-2'>Temp: </li>
+                    <li id='Humidity-2'>Humidity: </li>
+                    <li id='Wind-2'>Wind Speed:</li>
+                </ul>
+                <ul class='car' id='day3'>
+                    <img class = 'icon' id='icon1'></img>
+                    <li id='Day-3'>--/--/--</li>
+                    <li id='Temp-3'>Temp: </li>
+                    <li id='Humidity-3'>Humidity: </li>
+                    <li id='Wind-3'>Wind Speed:</li>
+                </ul>
+                <ul class='car' id='day4'>
+                    <img class = 'icon' id='icon1'></img>
+                    <li id='Day-4'>--/--/--</li>
+                    <li id='Temp-4'>Temp: </li>
+                    <li id='Humidity-4'>Humidity: </li>
+                    <li id='Wind-4'>Wind Speed:</li>
+                </ul>
+                <ul class='car' id='day5'>
+                    <img class = 'icon' id='icon1'></img>
+                    <li id='Day-5'>--/--/--</li>
+                    <li id='Temp-5'>Temp: </li>
+                    <li id='Humidity-5'>Humidity: </li>
+                    <li id='Wind-5'>Wind Speed:</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="searchHistory" class="weather-section">
+            <h2>Search History</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <script scr="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/Script/script.js"></script>
+</body>
+</html>
